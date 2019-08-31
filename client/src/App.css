@@ -1,0 +1,99 @@
+*{
+  border: 0;
+  margin: 0;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  min-width: 100vh;
+  padding-bottom: 5rem;
+}
+
+.App {
+  text-align: center;
+  width:70%;
+}
+
+.container {
+  width: 100%;
+}
+
+.loading-screen{
+  background: rgb(82, 59, 145);
+  height:100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.DropZone{
+  border: 1px dashed gray;
+}
+
+.DropZone:hover {
+  background: rgb(241, 238, 241);
+}
+
+.table{
+  width: 100%;
+  box-shadow: 0 0 25px 1px rgb(224, 224, 224);
+  margin-top: 3rem;
+  border-collapse: collapse; 
+}
+
+.table th{
+ padding: 1rem;
+ color: rgb(60, 60, 60);
+}
+
+.table th:not(:last-of-type){
+  text-align: left; 
+}
+
+.table thead th{
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.landing-img {
+  height: 20rem;
+  padding: 1rem 0;
+} 
+
+h1{
+  margin-bottom:2rem;
+  font-size: 2.9rem;
+  letter-spacing: 1px;
+  color: rgb(60, 60, 60);
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
